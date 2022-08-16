@@ -22,7 +22,7 @@ const todaysWeather = {
   weather: "rainy",
 };
 
-const logWeather = ({
+const logWeathers = ({
   date,
   weather,
 }: {
@@ -33,6 +33,6 @@ const logWeather = ({
   console.log(weather);
 };
 
-logWeather(todaysWeather);
+logWeathers(todaysWeather);
 
 
